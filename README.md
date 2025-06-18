@@ -4,6 +4,8 @@ This repository demonstrates a full linear regression workflow using a dataset.
 
 ---
 
+
+
 ##  Dataset Overview
 
 The dataset (`friend.csv`) contains the following columns:
@@ -46,9 +48,24 @@ Trained a `LinearRegression()` model on the training data.
 - Generated predictions on the test set.  
 - Calculated **MAE**, **MSE**, **RMSE**, and **R²** for performance analysis.
 
+  
 ### 7. Visualization  
 -  **Regression Line Plot** to compare actual vs predicted values.  
 -  **Residual Plot** to check errors.  
 -  **Heatmap** to show correlation between all numeric features.
 
 ---
+
+
+  
+  ## About **Linear Regression**
+  ### Advantages
+  - Simple to implement and efficient to train
+  - Overfitting can be reduced by regularization
+  - Performs well when the dataset is linearly separable.
+
+  ### Disadvantages
+  - Assumes that the data is independent which is rare in real life
+  - Prone to noise and overfitting
+  - Sensitive to outliers. 
+
